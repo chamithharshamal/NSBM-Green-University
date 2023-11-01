@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+        width: 310px;
+        margin: 10px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      
+      th {
+        text-align: left;
+      }
+      p{
+        font-size: 20px;
+        margin-top: -33px;
+        background-color: #fff;
+        width: 140px;
+        padding: 2px;
+      }
+     
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Car Registration</p>
+        <table>
+          <tr>
+            <td>Owner Name</td>
+            <td><input type="text" name="owner" id="owner" /></td>
+          </tr>
+          <tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="email" /></td>
+              </tr>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td><input type="text" name="mobile" id="mobile" /></td>
+          </tr>
+          <tr>
+            <td>Country</td>
+            <td>
+              <select name="favourite_music" id="favourite_music">
+                <option value="sri-lanka">Sri Lanka</option>
+                <option value="india">India</option>
+                <option value="japan">Japan</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Car Model</td>
+            <td><input type="text" name="model" id="model" /></td>
+          </tr>
+          <tr>
+            <td>Manufacture Year</td>
+            <td>
+              <select name="favourite_music" id="favourite_music">
+                <option value="year">Select Year</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Transmission</td>
+            <td><input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Manual</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Auto</label></td>
+          </tr>
+          <tr>
+            <br>
+            <td>Other</td>
+            <td><input type="text" name="additional_details" id="additional_details"style="height: 50px;"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="checkbox" name="terms" id="terms" />
+              <label for="terms">I agree to the terms and conditions</label></td>
+          </tr>
+        </table>
+      
+        <button type="submit" class="submit">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="submit" class="reset">Reset</button>
+      </div>
+</body>
+</html>

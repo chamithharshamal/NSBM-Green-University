@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+  body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 310px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+th {
+  text-align: left;
+}
+h1{
+    margin-top: -1.0px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+      
+        <table>
+          <tr>
+            <td>First Name</td>
+            <td><input type="text" name="first_name" id="first_name" /></td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="last_name" id="last_name" /></td>
+          </tr>
+          <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" name="mobile_number" id="mobile_number" /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td>Favourite Music</td>
+            <td><input type="checkbox" name="music" id="pop" value="pop" />
+                <label for="pop">POP</label>
+                <input type="checkbox" name="music" id="rock" value="rock" />
+                <label for="rock">Rock</label>
+                <input type="checkbox" name="music" id="other" value="other" />
+                <label for="other">Other</label></td>
+          </tr>
+          <tr>
+            <td>Additional Details</td>
+            <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="checkbox" name="terms" id="terms" />
+              <label for="terms">I agree to the terms and conditions</label></td>
+          </tr>
+          <tr> 
+            <td><input type="button" value="Submit"></td>
+            <td><input type="button" value="Reset"></td>
+          </tr>
+        </table>
+      </div>
+</body>
+</html>

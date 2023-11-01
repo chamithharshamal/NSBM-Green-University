@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Operations</title>
+</head>
+<body>
+    <script>
+        
+        function addition(a, b) {
+          return a + b;
+        }
+    
+      
+        function subtraction(a, b) {
+          return a - b;
+        }
+    
+        
+        function multiplication(a, b) {
+          return a * b;
+        }
+    
+        
+        function division(a, b) {
+          if (b === 0) {
+            return "Cannot divide by zero!";
+          }
+          return a / b;
+        }
+    
+    
+        const num1 = parseFloat(prompt("Enter the first number:"));
+        const num2 = parseFloat(prompt("Enter the second number:"));
+    
+       
+ alert(`    Addition: ${addition(num1, num2)}
+    Subtraction: ${subtraction(num1, num2)}
+    Multiplication: ${multiplication(num1, num2)}
+    Division: ${division(num1, num2)}`);
+      </script>
+</body>
+</html>
