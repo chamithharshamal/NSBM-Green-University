@@ -4,15 +4,15 @@ public class CalculateProduct {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number: ");
-        int x = scanner.nextInt();
+        int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        int y = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
         System.out.print("Enter the third number: ");
-        int z = scanner.nextInt();
+        int num3 = scanner.nextInt();
 
-        int product = x * y * z;
+        int product = num1 * num2 * num3;
 
         System.out.println("The product of the three integers is: " + product);
     }
