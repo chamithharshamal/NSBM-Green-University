@@ -12,8 +12,8 @@ public class Item {
 
         int total=num1+num2+num3;
         int product= num1*num2*num3;
-        float ave=(float) (num1+num2+num3)/3;
-        System.out.println("Total: "+total+"\nProduct: "+product+"\nAverage: "+ave);
+        float average=(float) (num1+num2+num3)/3;
+        System.out.println("Total: "+total+"\nProduct: "+product+"\nAverage: "+average);
 
         int max=num1;
         int min=num1;
